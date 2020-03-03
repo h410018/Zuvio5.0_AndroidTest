@@ -1,0 +1,15 @@
+#Maven
+target/
+test-output/
+pom.xml
+
+#TestNG
+testng.xml
+
+#eclipse
+.classpath
+.project
+.settings/
+bin/
+lib/
+src/.git/
