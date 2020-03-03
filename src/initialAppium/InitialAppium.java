@@ -18,8 +18,8 @@ public class InitialAppium {
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		// capabilities.setCapability(CapabilityType.BROWSER_NAME, "");//不一定要加
 		capabilities.setCapability("deviceName", "phone");
-		capabilities.setCapability("uuid", "emulator-5554");// 需要變動的
-		capabilities.setCapability("platformVersion", "8.1");// 需要變動的
+		capabilities.setCapability("uuid", "F5AZFG06J546");// 需要變動的
+		capabilities.setCapability("platformVersion", "6.0.1");// 需要變動的
 		capabilities.setCapability("platformName", "Android");// 需要變動的
 		capabilities.setCapability("appPackage", appPackage);// 需要變動的
 		capabilities.setCapability("appActivity", appActivity);// 需要變動的
