@@ -75,63 +75,6 @@ public class AppLogin {
 			login.click();
 		}
 
-//		WebDriverWait wait = new WebDriverWait(ia.driver,5);
-//		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.zuvio.student:id/search_textView"))); //wait for search_textView
-//		
-//		ia.driver.findElementById("com.zuvio.student:id/search_textView").click();
-//		
-//		keyword = ia.driver.findElement(By.id("com.zuvio.student:id/search_editText"));
-//		
-//		ia.driver.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.EditText\n" + 
-//					"").sendKeys("test");	
-
-		// sikuli script example:
-//		Screen s = new Screen();//active with sikuli
-//		String close_guide_path = "C:\\Users\\zuvio\\Desktop.sikuli\\";//find pic of element
-//		//do something
-//		s.find(close_guide_path+"close1.png");
-//		s.click(close_guide_path+"close2.png"); 	
-
-//		// 解析度
-//		int width = ia.driver.manage().window().getSize().width;
-//		int height = ia.driver.manage().window().getSize().height;
-////		System.out.println(" "+widht+"x"+height);
-//
-//		TouchAction action = new TouchAction(ia.driver);
-//		press
-//		release
-//		moveTo
-//		tap
-//		wait
-//		longPress
-//		cancel
-//		perform
-//		driver.swipe() is deprecated.
-//		Thread.sleep(3000);
-//		new Swipe().SwipeDown(ia.driver);
-//
-//		ia.driver.findElement(By.xpath("//android.widget.TextView[@text='大學生の一句話']"));
-//
-//		new Swipe().SwipeLeft(ia.driver);
-//		Thread.sleep(700);
-//
-//		new Swipe().SwipeRight(ia.driver);
-//		Thread.sleep(700);
-//		
-//		WebDriverWait wait = new WebDriverWait(ia.driver,20);
-//		wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("android.widget.HorizontalScrollView"))); //wait for tabs     
-//		
-//		
-//		List<MobileElement> tabs = ia.driver.findElements(By.className("android.support.v7.app.ActionBar$Tab"));//list tabs
-//		
-//		tabs.get(2).click();
-//		
-//		wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("android.widget.Button")));      
-//
-//		ia.driver.findElement(By.xpath("//android.widget.FrameLayout/android.widget.ScrollView/android.support.v7.widget.RecyclerView/android.widget.Button[@index='7']")).click();
-//		
-//		System.out.println(tabs.size());
-
 	}
 	
 	@Test(priority = 5)
